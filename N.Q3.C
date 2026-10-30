@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int main() {
+int i,j;
+i=1;
+while(i<=8){
+    printf("\n");
+    j=1;
+    while(j<=i) {
+        printf("%d",i+j);
+        j++;
+    }
+    i++;
+}
+return 0;
+}
+
+  
